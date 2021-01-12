@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Login</title>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel ="stylesheet" href ="../css/style.css">
+    <link rel ="stylesheet" type="text/css" href ="../css/fuentes.css"/>
+    <link rel="shortcut icon" type="image/png" href="../resources/logooo.png">
+    <script src="https://kit.fontawesome.com/fbbddd9141.js" crossorigin="anonymous"></script>
+    <!--libreria que se encarga de tratar funciones ajax-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Función documento javascript que ejecuta algunas funciones extras de prueba -->
+    <script type="text/javascript" src="../js/login.js"></script>
+</head>
+<body>
+<header>
+       <div class ="contenedor"></div>
+        <a href="../index.html"><img src="../resources/logoo.png" alt="EETAC WARS" class="logotipo"></a>
+
+        <nav class="nav">
+            <ul class="ul">
+                <li><a href="../index.html" >INICIO</a></li>
+                <li><a href="descubrir.html">DESCUBRIR</a></li>
+                <li><a href="tienda.html">TIENDA</a></li>
+                <li><a href="login.html"class="activo">LOG IN</a></li>
+                <li><a href="signup.html">SIGN UP</a></li>
+                <li><a href="soporte.html" >OTROS </a></li>
+            </ul>
+        </nav>
+</header>
+        <section>
+                <form action="" method="post">
+                    <h1>Login</h1>
+                    <input type="text" id="username" name="username" class="username" placeholder="Username">
+                    <input type="password" id="password" name="password" class="password" placeholder="Password">
+                    <button class="button" id="loginbutton"><a>Send</a></button>
+                </form>
+        </section>
+</body>
+</html>
