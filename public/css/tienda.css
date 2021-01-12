@@ -1,43 +1,43 @@
 /*Fichero de estilos para pantallas de ordenador*/
+
  body {
-    background: #A52A2A;
+    background: black;
+    text-align: center;
     color: white;
     font-size: 14px;
     font-family:comic sans ms;
  }
 
-* {
- margin: 0px;
- padding: 0px;
+{
+    margin: 0px;
+    padding: 0px;
 }
 
 /*CSS DE LOS PRODUCTOS*/
  img.imagen {
-    margin-left:auto;
-    margin-right:auto;
-    display:block;
-    padding-top:5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 5px;
  }
 
  div.etiquetas {
-    color:blue;
-    text-align:center;
-    width:222px;
-    height:22px;
+    color: white;
+    text-align: center;
+    width: 222px;
+    height: 22px;
  }
 
  div.stock {padding-left:0px;}
 
  input.uniBien {
- position:relative;
- margin-left:45px;
-
-
- background:white;
+    position:relative;
+    background:white;
  }
+
  input.uniMal {
- margin-left:52px;
- background:red;
+    position:relative;
+    background:red;
  }
 
  div.divsNo {display:none;}
